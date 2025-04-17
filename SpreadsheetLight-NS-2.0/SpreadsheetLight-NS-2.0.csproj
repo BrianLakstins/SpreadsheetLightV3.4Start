@@ -1,11 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>SpreadsheetLight_NS_2._0</RootNamespace>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<RootNamespace>SpreadsheetLight</RootNamespace>
+		<Version>3.5.0</Version>
+		<AssemblyVersion>2025.04.17.01</AssemblyVersion>
+		<FileVersion>3.5.0.0</FileVersion>
+		<ProductName>SpreadsheetLight</ProductName>
+		<Product>SpreadsheetLight</Product>
+		<AssemblyTitle>SpreadsheetLight</AssemblyTitle>
+		<Copyright>Copyright © 2011 Vincent Tan</Copyright>
+		<Description>SpreadsheetLight</Description>
+	</PropertyGroup>
 
-  <ItemGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>TRACE;netstandard2</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DefineConstants>TRACE;netstandard2</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
     <Compile Include="..\sourcecode\CalculationFunctions.cs" Link="CalculationFunctions.cs" />
     <Compile Include="..\sourcecode\CellFunctions.cs" Link="CellFunctions.cs" />
     <Compile Include="..\sourcecode\Charts\EGAxShared.cs" Link="Charts\EGAxShared.cs" />

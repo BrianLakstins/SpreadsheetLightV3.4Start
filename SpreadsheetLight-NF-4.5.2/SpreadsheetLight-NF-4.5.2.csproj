@@ -178,6 +178,12 @@
     <Compile Include="..\sourcecode\Charts\SLTitle.cs">
       <Link>Charts\SLTitle.cs</Link>
     </Compile>
+    <Compile Include="..\sourcecode\Charts\SLTrendline.cs">
+      <Link>Charts\SLTrendline.cs</Link>
+    </Compile>
+    <Compile Include="..\sourcecode\Charts\SLTrendlineLabel.cs">
+      <Link>Charts\SLTrendlineLabel.cs</Link>
+    </Compile>
     <Compile Include="..\sourcecode\Charts\SLUpBars.cs">
       <Link>Charts\SLUpBars.cs</Link>
     </Compile>
@@ -658,6 +664,9 @@
     <Compile Include="..\sourcecode\worksheet\SLCellPointRange.cs">
       <Link>worksheet\SLCellPointRange.cs</Link>
     </Compile>
+    <Compile Include="..\sourcecode\worksheet\SLCellWarehouse.cs">
+      <Link>worksheet\SLCellWarehouse.cs</Link>
+    </Compile>
     <Compile Include="..\sourcecode\worksheet\SLColumnProperties.cs">
       <Link>worksheet\SLColumnProperties.cs</Link>
     </Compile>
@@ -687,6 +696,9 @@
     </Compile>
     <Compile Include="..\sourcecode\worksheet\SLSelection.cs">
       <Link>worksheet\SLSelection.cs</Link>
+    </Compile>
+    <Compile Include="..\sourcecode\worksheet\SLSharedCellFormula.cs">
+      <Link>worksheet\SLSharedCellFormula.cs</Link>
     </Compile>
     <Compile Include="..\sourcecode\worksheet\SLSheetFormatProperties.cs">
       <Link>worksheet\SLSheetFormatProperties.cs</Link>
