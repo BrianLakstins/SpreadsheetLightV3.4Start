@@ -264,9 +264,9 @@
 
   <ItemGroup>
     <PackageReference Include="System.Drawing.Common" Version="9.0.4" />
-	  <PackageReference Include="DocumentFormat.OpenXml" Version="2.11.3" />
+	  <PackageReference Include="DocumentFormat.OpenXml" Version="2.20.0" />
 	  <PackageReference Include="System.IO.FileSystem.Primitives" Version="4.3.0" />
-	  <PackageReference Include="System.IO.Packaging" Version="5.0.0" />
+	  <PackageReference Include="System.IO.Packaging" Version="9.0.4" />
   </ItemGroup>
 
 </Project>

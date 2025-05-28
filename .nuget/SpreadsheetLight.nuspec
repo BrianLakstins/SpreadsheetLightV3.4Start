@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<package  xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>    
+    <id>SpreadsheetLight</id>
+    <version>3.5.0.0</version>
+    <title>SpreadsheetLight</title>
+    <authors>Brian Lakstins</authors>
+    <owners>brianlakstins</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/BrianLakstins/SpreadsheetLightV3.4Start/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SpreadsheetLight with multiple projects for different target frameworks</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright © 2011 Vincent Tan</copyright>
+    <tags></tags>
+	  <dependencies>
+		  <group targetFramework="netstandard2.0">
+			  <dependency id="DocumentFormat.OpenXml" version="2.20.0" />
+		  </group>
+		  <group targetFramework="net452">
+			  <dependency id="DocumentFormat.OpenXml" version="2.20.0" />
+		  </group>
+	  </dependencies>
+	<summary>Project files added for SpreadsheetLight from Vincent Tan</summary>
+	<readme>readme.md</readme>
+  </metadata>
+  <files>
+    <file src="readme.md" target="" />
+    <file src="lib\**" target="lib/" />
+  </files>
+</package>
